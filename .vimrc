@@ -2,8 +2,8 @@
 " author: hueftl (Alexander Menne)
 " license: MIT
 
-set nocompatible	" required
-filetype off		" required
+set nocompatible        " required
+filetype plugin off     " required
 syntax on
 set encoding=utf-8
 set number
@@ -40,6 +40,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'junegunn/vim-plug'
 Plug 'morhetz/gruvbox'
 Plug 'scrooloose/nerdtree'
+Plug 'scrooloose/nerdcommenter'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
@@ -69,6 +70,8 @@ map <C-n> :NERDTreeToggle<CR>
 let NERDTreeShowHidden=1
 let NERDTreeIgnore = ['\.pyc$', '__pycache__']
 let g:NERDTreeWinSize=35
+
+" NERD
 
 " Airline
 let g:airline_solarized_bg = 'dark'
