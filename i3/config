@@ -1,4 +1,7 @@
 
+#mouse_warping none
+focus_follows_mouse no
+
 for_window [class="^.*"] border pixel 1
 
 set $mod Mod4
@@ -166,4 +169,4 @@ bar {
 
 exec "/home/amenne/.screenlayout/layout.sh"
 exec --no-startup-id feh --bg-scale ~/Downloads/astronaut.png
-exec "setxkbmap -layout us
+exec "setxkbmap -layout us"
