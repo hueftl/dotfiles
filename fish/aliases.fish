@@ -3,6 +3,7 @@ function mdc; mkdir -p $argv; and cd $argv; end
 alias .. "cd ../"
 alias ... "cd ../../"
 
+alias doco "docker-compose"
 alias dockerclean "docker images -f=dangling=true -qa | xargs -r docker rmi -f" # removes images
 alias dockerrma "docker rmi -f (docker images -q); docker rm (docker ps -a -q)" #
 
