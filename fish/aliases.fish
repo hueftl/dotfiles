@@ -4,8 +4,13 @@ alias .. "cd ../"
 alias ... "cd ../../"
 
 alias doco "docker-compose"
-alias dockerclean "docker images -f=dangling=true -qa | xargs -r docker rmi -f" # removes images
-alias dockerrma "docker rmi -f (docker images -q); docker rm (docker ps -a -q)" #
+#alias dockerclean "docker images -f=dangling=true -qa | xargs -r docker rmi -f" # removes images
+#alias dockerrma "docker rmi -f (docker images -q); docker rm (docker ps -a -q)" #
+
+alias dsp "docker system prune"
+alias dip "docker image prune"
+alias dnp "docker network prune"
+alias dvp "docker volume prune"`
 
 alias g "git"
 alias ga "git add"
