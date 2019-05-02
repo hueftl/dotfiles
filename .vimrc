@@ -11,7 +11,7 @@ set autoindent
 set smartindent
 set smarttab
 set list
-set listchars=tab:▸\ ,eol:¬
+set listchars=tab:▸\ ,eol:¬,space:·,nbsp:␣,trail:•,precedes:«,extends:»
 set splitbelow
 set splitright
 set signcolumn=yes
@@ -52,6 +52,9 @@ Plug 'Valloric/YouCompleteMe'
 Plug 'nathanaelkane/vim-indent-guides'
 Plug 'dhruvasagar/vim-table-mode'
 Plug 'dag/vim-fish'
+Plug 'pangloss/vim-javascript'
+Plug 'leafgarland/typescript-vim'
+Plug 'mxw/vim-jsx'
 "Plug 'bagrat/vim-buffet'
 call plug#end()
 
