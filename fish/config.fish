@@ -1,5 +1,5 @@
-set -x VISUAL vim¬
-set -x EDITOR vim¬
+set -x VISUAL vim
+set -x EDITOR vim
 
 set -g theme_color_scheme gruvbox
 
