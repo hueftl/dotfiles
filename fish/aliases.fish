@@ -22,6 +22,7 @@ alias gc "git clone"
 alias gco "git checkout"
 alias gd "git diff"
 alias gp "git pull"
+alias gpom "git pull origin master"
 alias gpu "git push"
 alias gst "git status"
 
