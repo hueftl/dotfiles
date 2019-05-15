@@ -2,8 +2,8 @@
 " author: hueftl (Alexander Menne)
 " license: MIT
 
-set nocompatible        " required
-filetype plugin off     " required
+set nocompatible
+filetype plugin indent on
 syntax on
 set encoding=utf-8
 set number
@@ -22,9 +22,9 @@ set textwidth=119
 set expandtab
 set autoindent
 set cursorline
-"set fileformat=unix\
-" remove trailing whitespace in Python files
-autocmd BufWritePre *.py :%s/\s\+$//e
+set showmatch
+set hlsearch
+"autocmd BufWritePre *.py :%s/\s\+$//e
 
 " Ale
 let g:ale_completion_enabled = 1
@@ -56,6 +56,7 @@ Plug 'dag/vim-fish'
 Plug 'pangloss/vim-javascript'
 Plug 'leafgarland/typescript-vim'
 Plug 'mxw/vim-jsx'
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 "Plug 'bagrat/vim-buffet'
 call plug#end()
 
