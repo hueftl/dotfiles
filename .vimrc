@@ -21,6 +21,7 @@ set shiftwidth=4
 set textwidth=119
 set expandtab
 set autoindent
+set cursorline
 "set fileformat=unix\
 " remove trailing whitespace in Python files
 autocmd BufWritePre *.py :%s/\s\+$//e
@@ -61,8 +62,8 @@ call plug#end()
 " Theme: Gruvbox
 set background=dark
 let g:gruvbox_contrast_dark='hard'
+set termguicolors
 colorscheme gruvbox
-"hi Normal ctermbg=none
 
 " remap semicolon to colon, because shift is for nerds
 nnoremap ; :
@@ -89,8 +90,3 @@ let g:better_whitespace_enabled=1
 let g:strip_whitespace_on_save=1
 let g:show_spaces_that_precede_tabs=1
 let g:better_whitespace_verbosity=1
-
-" vim-indent-guides
-"let g:indent_guides_guide_size = 1
-"let g:indent_guides_color_change_percent = 3
-"let g:indent_guides_enable_on_vim_startup = 1
