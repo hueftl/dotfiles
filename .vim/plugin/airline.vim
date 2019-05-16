@@ -7,3 +7,4 @@ let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#ale#enabled = 1
 let g:airline#extensions#ale#error_symbol = '✗ '
 let g:airline#extensions#ale#warning_symbol = '⚠ '
+let g:buffet_powerline_separators = 1
