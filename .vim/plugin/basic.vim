@@ -1,6 +1,5 @@
 " file: basic.vim
 " author: hueftl (Alexander Menne)
-" license: MIT
 " contains basic vim settings for more awesomeness
 
 " we want VIM not vi settings
