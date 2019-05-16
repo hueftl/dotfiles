@@ -1,14 +1,13 @@
 function mdc; mkdir -p $argv; and cd $argv; end
+function debup; sudo aptitude update; and sudo aptitude safe-upgrade; end
 
 alias .. "cd ../"
 alias ... "cd ../../"
 
 alias c "clear"
+alias cat "bat"
 
 alias doco "docker-compose"
-#alias dockerclean "docker images -f=dangling=true -qa | xargs -r docker rmi -f" # removes images
-#alias dockerrma "docker rmi -f (docker images -q); docker rm (docker ps -a -q)" #
-
 alias dsp "docker system prune"
 alias dip "docker image prune"
 alias dnp "docker network prune"
@@ -29,9 +28,12 @@ alias gst "git status"
 alias m "make"
 alias mc "make clean"
 alias md "mkdir -p"
-alias mm "make -j32"
+alias mj "make -j32"
+
 alias p "ping -3"
 alias ping "ping -c3"
 alias pycdel "find . -iname '*.pyc' -delete "
+
 alias ua "uname -a"
+
 alias v "vim"
