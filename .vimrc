@@ -2,33 +2,9 @@
 " author: hueftl (Alexander Menne)
 " license: MIT
 
-set nocompatible
-filetype plugin indent on
-syntax on
-set encoding=utf-8
-set number
-set autoindent
-set smartindent
-set smarttab
-set list
-set listchars=tab:▸\ ,eol:¬,space:·,nbsp:␣,trail:•,precedes:«,extends:»
-set splitbelow
-set splitright
-set signcolumn=yes
-set tabstop=4
-set softtabstop=4
-set shiftwidth=4
 set textwidth=119
-set expandtab
-set autoindent
-set cursorline
 set showmatch
 set hlsearch
-"autocmd BufWritePre *.py :%s/\s\+$//e
-
-" Ale
-let g:ale_completion_enabled = 1
-let g:ale_fix_on_save = 1
 
 " Plugin Manager
 if empty(glob('~/.vim/autoload/plug.vim'))
@@ -59,12 +35,6 @@ Plug 'mxw/vim-jsx'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 "Plug 'bagrat/vim-buffet'
 call plug#end()
-
-" Theme: Gruvbox
-set background=dark
-let g:gruvbox_contrast_dark='hard'
-set termguicolors
-colorscheme gruvbox
 
 " remap semicolon to colon, because shift is for nerds
 nnoremap ; :
