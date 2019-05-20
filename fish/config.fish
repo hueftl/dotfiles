@@ -3,6 +3,11 @@ set -x EDITOR vim
 
 set -g theme_color_scheme gruvbox
 
+if test -d $HOME/go
+    set -x GOPATH $HOME/go
+    set -x GOBIN $GOPATH/bin
+end
+
 if test -d $HOME/.yarn/bin -a $HOME/.yarn-config
     set -x YARNBIN $HOME/.yarn/bin
     set -x YARNGLOBALBIN $HOME/.yarn-config/global/node_modules/.bin

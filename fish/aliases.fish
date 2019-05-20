@@ -30,6 +30,8 @@ alias mc "make clean"
 alias md "mkdir -p"
 alias mj "make -j32"
 
+alias off "sudo shutdown -P now"
+
 alias p "ping -3"
 alias ping "ping -c3"
 alias pycdel "find . -iname '*.pyc' -delete "
