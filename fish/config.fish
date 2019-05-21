@@ -33,6 +33,10 @@ if test -d /usr/sbin
     set -x SBIN /usr/sbin
 end
 
-set -U fish_user_paths $YARNBIN $YARNGLOBALBIN $CARGOBIN $LOCALSBIN $USRLOCALBIN $SBIN
+if test -d $HOME/.poetry/bin
+    set -x POETRYBIN $HOME/.poetry/bin
+end
+
+set -U fish_user_paths $YARNBIN $YARNGLOBALBIN $CARGOBIN $LOCALSBIN $USRLOCALBIN $SBIN $POETRYBIN
 
 source $HOME/.config/fish/aliases.fish
