@@ -15,7 +15,7 @@ set number
 set cursorline
 
 " show tabs, spaces and trailing spaces
-set list listchars=tab:▸\ ,eol:¬,space:·,nbsp:␣,extends:❯,precedes:❮
+set list listchars=tab:▸\ ,eol:¬,trail:·,nbsp:␣,extends:❯,precedes:❮
 set backspace=indent,eol,start
 set history=1000
 
