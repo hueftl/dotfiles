@@ -8,14 +8,17 @@ set nocompatible
 " detect filetype
 filetype plugin indent on
 
-set encoding=utf8
+set encoding=utf-8
+
+" remap semicolon, because shift is for nerds...
+nnoremap ; :
 
 " show line numbers and highlight cursorline
 set number
 set cursorline
 
 " show tabs, spaces and trailing spaces
-set list listchars=tab:▸\ ,eol:¬,space:·,nbsp:␣,extends:❯,precedes:❮
+set list listchars=tab:▸\ ,eol:¬,trail:·,nbsp:␣,extends:❯,precedes:❮
 set backspace=indent,eol,start
 set history=1000
 
@@ -58,3 +61,4 @@ set title
 set confirm
 set formatoptions+=j
 set textwidth=119
+set mouse=a
