@@ -13,6 +13,9 @@ set encoding=utf-8
 " remap semicolon, because shift is for nerds...
 nnoremap ; :
 
+" use X clipboard
+set clipboard=unnamedplus
+
 " show line numbers and highlight cursorline
 set number
 set cursorline
