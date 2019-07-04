@@ -16,6 +16,8 @@ alias dip "docker image prune"
 alias dnp "docker network prune"
 alias dvp "docker volume prune"`
 
+alias ff "find . -name"
+
 alias g "git"
 alias ga "git add"
 alias gaa "git add -A"
@@ -24,6 +26,7 @@ alias gbd "git branch -D"
 alias gc "git clone"
 alias gco "git checkout"
 alias gd "git diff"
+alias gfa "git fetch -p --all"
 alias gp "git pull"
 alias gpom "git pull origin master"
 alias gpu "git push"
