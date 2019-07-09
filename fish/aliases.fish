@@ -39,8 +39,7 @@ alias mj "make -j32"
 
 alias off "sudo shutdown -P now"
 
-alias p "ping -3"
-alias ping "ping -c3"
+alias p "ping -c3"
 alias pycdel "find . -iname '*.pyc' -delete "
 
 alias ua "uname -a"
