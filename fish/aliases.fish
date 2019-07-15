@@ -1,5 +1,6 @@
-function mdc; mkdir -p $argv; and cd $argv; end
+function db; pgcli -h $argv -U postgres -d $argv; end
 function debup; sudo aptitude update; and sudo aptitude safe-upgrade; end
+function mdc; mkdir -p $argv; and cd $argv; end
 
 alias .. "cd ../"
 alias ... "cd ../../"
@@ -39,7 +40,7 @@ alias mj "make -j32"
 
 alias off "sudo shutdown -P now"
 
-alias p "ping -c3"
+alias ping "ping -c3"
 alias pycdel "find . -iname '*.pyc' -delete "
 
 alias ua "uname -a"
