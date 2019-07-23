@@ -17,6 +17,7 @@ dependencies:
 		-o fish/functions/fzf_key_bindings.fish
 	$(CURL) https://git.io/fisher \
 		-o fish/functions/fisher.fish
+	$(CURL) https://get.oh-my.fish | fish
 
 uninstall:
 	rm ~/.config/fish
