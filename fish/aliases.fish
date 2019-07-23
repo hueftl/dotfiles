@@ -8,16 +8,18 @@ alias ... "cd ../../"
 alias c "clear"
 alias cat "bat"
 
-alias debadd "sudo aptitude install"
+alias debget "sudo aptitude install"
 alias debrem "sudo aptitude remove"
-alias debget "aptitude search"
+alias debfind "aptitude search"
 alias doco "docker-compose"
 alias dsp "docker system prune"
 alias dip "docker image prune"
 alias dnp "docker network prune"
 alias dvp "docker volume prune"`
 
+alias fd "fdfind"
 alias ff "find . -name"
+alias fp "fzf --preview 'bat {} --color=always {} | head -300'"
 
 alias g "git"
 alias ga "git add"
