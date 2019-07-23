@@ -19,7 +19,7 @@ alias dvp "docker volume prune"`
 
 alias fd "fdfind"
 alias ff "find . -name"
-alias fp "fzf --preview 'bat {} --color=always {} | head -300'"
+alias fp "fzf --preview 'bat --color=always {} | head -300'"
 
 alias g "git"
 alias ga "git add"
