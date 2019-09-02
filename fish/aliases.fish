@@ -13,13 +13,16 @@ alias debrem "sudo aptitude remove"
 alias debfind "aptitude search"
 alias doco "docker-compose"
 alias dsp "docker system prune"
+alais dspa "docker system prune -a --volumes"
+alias dil "docker images"
+alias dila "docker images -a"
 alias dip "docker image prune"
 alias dnp "docker network prune"
 alias dvp "docker volume prune"`
 
 alias fd "fdfind"
 alias ff "find . -name"
-alias fp "fzf --preview 'bat --color=always {} | head -300'"
+alias fp "fzf --preview 'bat {} --color=always {} | head -300'"
 
 alias g "git"
 alias ga "git add"
