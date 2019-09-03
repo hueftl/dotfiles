@@ -1,0 +1,7 @@
+# Configuration file for the Starship prompt
+
+# don't print a new line between commands
+add_newline = false
+
+[directory]
+truncation_length = 8

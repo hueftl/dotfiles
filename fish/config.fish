@@ -1,6 +1,8 @@
 set -x VISUAL vim
 set -x EDITOR vim
 
+eval (starship init fish)
+
 set -g theme_color_scheme gruvbox
 
 if test -d $HOME/go
