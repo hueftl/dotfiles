@@ -29,4 +29,5 @@ Plug 'pangloss/vim-javascript'
 Plug 'leafgarland/typescript-vim'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'Yggdroot/indentLine'
+Plug 'editorconfig/editorconfig-vim'
 call plug#end()
