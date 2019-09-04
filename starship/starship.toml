@@ -1,7 +1,6 @@
 # Configuration file for the Starship prompt
 
-# don't print a new line between commands
-add_newline = false
+add_newline = true
 
 [directory]
-truncation_length = 8
+fish_style_pwd_dir_length = 8
