@@ -1,9 +1,13 @@
+set -x TERM xterm-256color
 set -x VISUAL vim
 set -x EDITOR vim
+set -x MAN_POSIXLY_CORRECT 1
 
-eval (starship init fish)
+set -U fish_greeting 'Welcome to another shitty day. Make it better!'
 
-set -g theme_color_scheme gruvbox
+starship init fish | source
+
+#set -g theme_color_scheme gruvbox
 
 if test -d $HOME/go
     set -x GOPATH $HOME/go
