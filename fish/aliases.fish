@@ -1,4 +1,4 @@
-function db; pgcli -h $argv -U postgres -d $argv; end
+function db; pgcli -h $argv[1] -U postgres -d $argv[2]; end
 function debup; sudo aptitude update; and sudo aptitude safe-upgrade; end
 function mdc; mkdir -p $argv; and cd $argv; end
 
@@ -13,7 +13,7 @@ alias debrem "sudo aptitude remove"
 alias debfind "aptitude search"
 alias doco "docker-compose"
 alias dsp "docker system prune"
-alais dspa "docker system prune -a --volumes"
+alias dspa "docker system prune -a --volumes"
 alias dil "docker images"
 alias dila "docker images -a"
 alias dip "docker image prune"
