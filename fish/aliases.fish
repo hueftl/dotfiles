@@ -39,6 +39,12 @@ alias gpom "git pull origin master"
 alias gpu "git push"
 alias gst "git status"
 
+alias l "lsd -l"
+alias la "lsd -a"
+alias lla "lsd -la"
+alias ls "lsd"
+alias lt "lsd --tree"
+
 alias m "make"
 alias mc "make clean"
 alias md "mkdir -p"
