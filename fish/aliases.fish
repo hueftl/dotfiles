@@ -41,6 +41,7 @@ alias gst "git status"
 
 alias ll "exa -l"
 alias la "exa -la"
+alias lat "exa -laT"
 alias ls "exa"
 alias lt "exa -T"
 
