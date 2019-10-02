@@ -1,5 +1,5 @@
 # dotfiles
-My cobbled together dotfiles
+My cobbled together dotfiles.
 
 ## Toolchain
 - **Desktop**
@@ -19,7 +19,7 @@ My cobbled together dotfiles
     - git
     - golang
     - htop
-    - [lsd](https://github.com/Peltoche/lsd) (a nicer and faster ls command)
+    - [exa](https://github.com/ogham/exa) (a nicer and faster replacement for ls)
     - python
     - [ripgrep](https://github.com/BurntSushi/ripgrep) (similar to grep, but searches recursively directories for a regex pattern)
     - rust
