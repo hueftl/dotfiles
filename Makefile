@@ -1,13 +1,14 @@
 CURL := curl -sL
 LN := ln -sfn
 
-.PHONY: install dependencies  uninstall
+.PHONY: install dependencies uninstall
 
 all: install
 
 install:
 	$(LN) "$$PWD"/fish ~/.config/fish
 	$(LN) "$$PWD"/i3 ~/.config/i3
+	$(LN) "$$PWD"/pdbpp/pdbrc.py ~/.pdbrc.py
 	$(LN) "$$PWD"/vim ~/.vim
 	$(LN) "$$PWD"/X11/xinitrc ~/.xinitrc
 	echo "Done."
@@ -22,6 +23,7 @@ dependencies:
 uninstall:
 	rm ~/.config/fish
 	rm ~/.config/i3
+	rm ~/.pdbrc.py
 	rm ~/.vim
 	rm ~/.xinitrc
 	echo "Done."
