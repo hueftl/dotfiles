@@ -20,6 +20,7 @@ My cobbled together dotfiles.
     - golang
     - htop
     - [exa](https://github.com/ogham/exa) (a nicer and faster replacement for ls)
+    - [pdbpp](https://github.com/pdbpp/pdbpp) (drop-in replacement for the Python debugger)
     - python
     - [ripgrep](https://github.com/BurntSushi/ripgrep) (similar to grep, but searches recursively directories for a regex pattern)
     - rust
