@@ -65,3 +65,8 @@ set confirm
 set formatoptions+=j
 set textwidth=119
 set mouse=a
+set termguicolors
+set hidden
+
+" coc.nvim specific settings
+highlight link CocErrorSign GruvboxRed
