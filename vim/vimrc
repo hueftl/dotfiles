@@ -25,5 +25,6 @@ Plug 'dhruvasagar/vim-table-mode'
 Plug 'dag/vim-fish'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'Yggdroot/indentLine'
+"Plug 'zirrostig/vim-schlepp'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 call plug#end()
