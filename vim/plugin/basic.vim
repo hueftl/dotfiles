@@ -13,6 +13,9 @@ set encoding=utf-8
 " remap semicolon, because shift is for nerds...
 nnoremap ; :
 
+" set filetypes as typsecript.tsx
+autocmd BufNewFile,BufRead *.tsx,*.jsx set filetype=typescript.tsx
+
 " use X clipboard
 set clipboard=unnamedplus
 

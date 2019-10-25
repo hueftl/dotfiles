@@ -4,7 +4,7 @@
     "python.formatting.provider": "black",
     "python.globalModuleInstallation": true,
     "python.pipenvPath": "/usr/bin/pipenv",
-    "python.venvFolders": "~/.local/share/virtualenvs/",
+    "python.venvFolders": ["~/.local/share/virtualenvs/"],
     "python.linting.flake8Path": "/usr/bin/flake8",
     "python.linting.flake8Enabled": true,
     "python.linting.banditPath": "/usr/bin/bandit",
@@ -14,5 +14,7 @@
     "python.linting.pep8Args": ["--max-line-length=120", "--max-doc-length=120"],
     "python.linting.pydocstylePath": "/usr/bin/pydocstyle",
     "python.linting.pydocstyleEnabled": true,
-    "python.linting.pylintEnabled": true
+    "python.linting.pylintEnabled": true,
+    "tsserver.npm": "/home/amenne/.nvm/versions/node/v12.13.0/bin/npm",
+    "xml.java.home": "/usr/lib/jvm/default-java/"
 }
