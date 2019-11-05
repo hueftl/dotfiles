@@ -1,6 +1,7 @@
 function db; pgcli -h $argv[1] -U postgres -d $argv[2]; end
 function debup; sudo aptitude update; and sudo aptitude safe-upgrade; end
 function mdc; mkdir -p $argv; and cd $argv; end
+function osname; hostnamectl | grep "Operating System"; end
 
 alias .. "cd ../"
 alias ... "cd ../../"
