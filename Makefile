@@ -1,5 +1,6 @@
 CURL := curl -sL
 LN := ln -sfn
+MD := mkdir -p
 
 .PHONY: install dependencies uninstall
 

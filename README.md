@@ -13,6 +13,7 @@ My cobbled together dotfiles.
 - **Development** and Tools
     - [bat](https://github.com/sharkdp/bat) (a nicer cat with syntax highlighting)
     - ccache
+    - [delta](https://github.com/dandavison/delta) (syntax highlighting pager for git.)
     - fd
     - fish
     - [fzf](https://github.com/junegunn/fzf) (a command line fuzzy finder)
