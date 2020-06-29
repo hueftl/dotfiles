@@ -41,6 +41,8 @@ alias gpom "git pull origin master"
 alias gpu "git push"
 alias gst "git status"
 
+alias kano "killall node"
+
 alias ll "exa -l"
 alias la "exa -la"
 alias lat "exa -laT"
