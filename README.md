@@ -6,12 +6,8 @@ My cobbled together dotfiles.
 
 - **Desktop**
 
-  - chromium
-  - feh
-  - i3
+  - Chrome / Firefox
   - nerd-fonts
-  - x11
-  - xautolock
 
 - **Development** and Tools
   - [bat](https://github.com/sharkdp/bat) (a nicer cat with syntax highlighting)
