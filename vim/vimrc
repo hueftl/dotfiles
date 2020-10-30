@@ -11,7 +11,6 @@ endif
 " Plugins
 call plug#begin('~/.vim/plugged')
 Plug 'junegunn/vim-plug'
-Plug '/usr/bin/fzf'
 Plug 'morhetz/gruvbox'
 Plug 'scrooloose/nerdtree'
 Plug 'scrooloose/nerdcommenter'
@@ -25,7 +24,6 @@ Plug 'dhruvasagar/vim-table-mode'
 Plug 'dag/vim-fish'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'Yggdroot/indentLine'
-"Plug 'zirrostig/vim-schlepp'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'leafgarland/typescript-vim'
 Plug 'peitalin/vim-jsx-typescript'
