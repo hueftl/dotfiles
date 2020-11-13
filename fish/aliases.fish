@@ -1,7 +1,5 @@
 function db; pgcli -h $argv[1] -U postgres -d $argv[2]; end
-function debup; sudo aptitude update; and sudo aptitude safe-upgrade; end
 function mdc; mkdir -p $argv; and cd $argv; end
-function osname; hostnamectl | grep "Operating System"; end
 
 alias .. "cd ../"
 alias ... "cd ../../"
@@ -9,9 +7,6 @@ alias ... "cd ../../"
 alias c "clear"
 alias cat "bat"
 
-alias debget "sudo aptitude install"
-alias debrem "sudo aptitude remove"
-alias debfind "aptitude search"
 alias doco "docker-compose"
 alias dsp "docker system prune"
 alias dspa "docker system prune -a --volumes"
@@ -21,7 +16,6 @@ alias dip "docker image prune"
 alias dnp "docker network prune"
 alias dvp "docker volume prune"`
 
-alias fd "fdfind"
 alias ff "find . -name"
 alias fp "fzf --preview 'bat {} --color=always {} | head -300'"
 
@@ -41,7 +35,7 @@ alias gpom "git pull origin master"
 alias gpu "git push"
 alias gst "git status"
 
-alias kano "killall node"
+alias kn "killall node"
 
 alias ll "exa -l"
 alias la "exa -la"
