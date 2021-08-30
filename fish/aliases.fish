@@ -1,4 +1,3 @@
-function db; pgcli -h $argv[1] -U postgres -d $argv[2]; end
 function mdc; mkdir -p $argv; and cd $argv; end
 
 alias .. "cd ../"
@@ -6,15 +5,6 @@ alias ... "cd ../../"
 
 alias c "clear"
 alias cat "bat"
-
-alias doco "docker-compose"
-alias dsp "docker system prune"
-alias dspa "docker system prune -a --volumes"
-alias dil "docker images"
-alias dila "docker images -a"
-alias dip "docker image prune"
-alias dnp "docker network prune"
-alias dvp "docker volume prune"`
 
 alias ff "find . -name"
 alias fp "fzf --preview 'bat {} --color=always {} | head -300'"
@@ -37,11 +27,12 @@ alias gst "git status"
 
 alias kn "killall node"
 
-alias ll "exa -l"
-alias la "exa -la"
-alias lat "exa -laT"
-alias ls "exa"
-alias lt "exa -T"
+alias ll "exa -Fl"
+alias la "exa -Fla"
+alias lat "exa -FlaT"
+alias ls "exa -F"
+alias lt "exa --tree -F"
+
 
 alias m "make"
 alias mc "make clean"
@@ -52,6 +43,8 @@ alias off "sudo shutdown -P now"
 
 alias ping "ping -c3"
 alias pycdel "find . -iname '*.pyc' -delete "
+
+#alias tree "exa --tree -F"
 
 alias ua "uname -a"
 
